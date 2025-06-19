@@ -1,9 +1,10 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace ShootEmUp
 {
     public sealed class InputManager : MonoBehaviour
     {
+        //
         public float HorizontalDirection { get; private set; }
 
         [SerializeField]
